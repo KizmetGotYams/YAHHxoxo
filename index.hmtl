@@ -1,229 +1,208 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>YAHHxoxo</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-.checked {
-  color: orange;
-} 
-select, input{
-    background-color:#f8e7c9;
-    color:#936c39;
-    padding: 8px 12px;
-    border:2px solid wheat;
-    border-radius: 4px;
-  }
-     
-hr {
-  border: none;
-  height: 2px;
-  background-color:#f8e7c9;
-  margin: 15px 0;
-}
-
-h1,h2,p {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-p{
-color:#333333;
-
-}
-h1{
-color:#333333;
-font-weight: bold;
-}
-h2{
-color:#333333;
-font-weight: bold;
-}
-i{
-color:#595959;
-}
-body{
-  font-family: Verdana, Geneva, sans-serif;
-  line-height: 1.6;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  background-image:url("https://developed-tomato-qoiulwmk.edgeone.dev/file.png");
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;  
-}
-
-div.Mtab {
-  display: flex;
-  flex-direction: column;
-  border-radius: 20px;
-  white-space: wrap;
-  width: 800px;
-  height: 540px;
-  overflow: hidden;
-  text-overflow: clip;
-  border: 5px solid DodgerBlue;
-  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.4);
-  resize: both;
-  position: absolute;
-  top: 50px;
-  left: 50px;
-}
- 
-div.tab {
-  flex: 1;
-  min-height: 0;
-  padding: 15px;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: OldLace;
-  margin-left: 0px;
-  white-space: wrap;
-  width: 100%;
-  overflow: hidden;
-  text-overflow: clip;
-  border: 4px Solid Wheat ;
-  overflow-y: scroll;
-  scrollbar-width: none;
-  box-sizing: border-box;
-}
-div.tab::-webkit-scrollbar {
-  display: none;
-}
-div.Tbar {
-  text-align: center;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-  background-color:DodgerBLue;
-  display:flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-left: 0px;
-  margin-top: 0px;
-  white-space: wrap;
-  width: 100%;
-  height: 25px;
-  text-overflow: clip;
-  border: 5px solid DodgerBlue;
-  box-sizing: border-box;
-  flex-shrink: 0;
-  cursor: grab;
-  user-select: none;
-}
-    </style>
+  <title>YAHHxoxo</title>
+  <link rel="stylesheet" href="https://cloudflare.com">
+  <style>
+    .checked {
+      color: orange;
+    }
+    select, input {
+      background-color: #f8e7c9;
+      color: #936c39;
+      padding: 8px 12px;
+      border: 2px solid wheat;
+      border-radius: 4px;
+    }
+    hr {
+      border: none;
+      height: 2px;
+      background-color: #f8e7c9;
+      margin: 15px 0;
+    }
+    h1, h2, p {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    p {
+      color: #333333;
+    }
+    h1, h2 {
+      color: #333333;
+      font-weight: bold;
+    }
+    i {
+      color: #595959;
+    }
+    body {
+      font-family: Verdana, Geneva, sans-serif;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-image: url("https://edgeone.dev");
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+    div.Mtab {
+      display: flex;
+      flex-direction: column;
+      border-radius: 20px;
+      white-space: wrap;
+      width: 800px;
+      height: 540px;
+      overflow: hidden;
+      text-overflow: clip;
+      border: 5px solid DodgerBlue;
+      box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.4);
+      resize: both;
+      position: absolute;
+      top: 50px;
+      left: 50px;
+    }
+    div.tab {
+      flex: 1;
+      min-height: 0;
+      padding: 15px;
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+      background-color: OldLace;
+      margin-left: 0px;
+      white-space: wrap;
+      width: 100%;
+      overflow: hidden;
+      text-overflow: clip;
+      border: 4px solid Wheat;
+      overflow-y: scroll;
+      scrollbar-width: none;
+      box-sizing: border-box;
+    }
+    div.tab::-webkit-scrollbar {
+      display: none;
+    }
+    div.Tbar {
+      text-align: center;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+      background-color: DodgerBlue;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-left: 0px;
+      margin-top: 0px;
+      white-space: wrap;
+      width: 100%;
+      height: 25px;
+      text-overflow: clip;
+      border: 5px solid DodgerBlue;
+      box-sizing: border-box;
+      flex-shrink: 0;
+      cursor: grab;
+      user-select: none;
+    }
+  </style>
 </head>
 <body>
 
-<!-- WINDOW 1 -->
-<div class="Mtab">
+  <!-- WINDOW 1 -->
+  <div class="Mtab">
     <div class="Tbar">
-    <span style="color: white; font-weight: bold;">YAHHxoxo</span>
-    <span style="font-weight: bold; font-family: lucida console;position: relative; left: -10px;">
-        <span style="color: yellow;">[-]</span>
-        <span style="color: lightgreen;">[/]</span>
-        <span style="color: red;">[X]</span>
-    </span>
+      <span style="color: white; font-weight: bold;">YAHHxoxo</span>
+      <span style="font-weight: bold; font-family: 'Lucida Console', monospace; position: relative; right: 10px;">
+        <span style="color: yellow;">-</span>
+        <span style="color: lightgreen;">□</span>
+        <span style="color: red;">X</span>
+      </span>
     </div>
     <div class="tab">
-    <h1><U>Goop Fuel</U></h1>
-    <i>The only fuel youll ever need!</i>
-    <hr>
-    <h2>Heading 2</h2>
-   
-    <p>paragraph</p>
-    <hr>
-    <h2>Heading 3</h2>
-   
-    <p>paragraph</p>
-    <hr>
-    <img src="https://potential-purple-7bonyuwm.edgeone.dev/file.png" alt="pic" width="300" height="200">
-    <br>
-    <i> smallest currently retailed version. (Cat for reference.) </i>
-   
-    <hr>
-    <h2>Heading </h2>
-   
-    <p>paragraph</p>
+      <h1><u>Goop Fuel</u></h1>
+      <i>The only fuel you'll ever need</i>
+      <hr>
+      <h2>Heading 2</h2>
+      <p>paragraph</p>
+      <hr>
+      <h2>Heading 3</h2>
+      <p>paragraph</p>
+      <hr>
+      <img src="https://edgeone.dev" alt="pic" width="300" height="200">
+      <br>
+      <i>smallest currently retailed version. Cat for reference</i>
+      <hr>
+      <h2>Heading</h2>
+      <p>paragraph</p>
+      <br><br><br><br><br><br><br><br><br>
+    </div>
+  </div>
 
-    <br><br><br><br><br><br><br><br><br>
-</div>
-</div>
-
-<!-- WINDOW 2 -->
-<div class="Mtab" style="top: 120px; left: 200px; width: 450px; height: 350px;">
+  <!-- WINDOW 2 -->
+  <div class="Mtab" style="top: 120px; left: 200px; width: 450px; height: 350px;">
     <div class="Tbar">
-    <span style="color: white; font-weight: bold;">IDKWTPH</span>
-    <span style="font-weight: bold; font-family: lucida console;position: relative; left: -10px;">
-        <span style="color: yellow;">[-]</span>
-        <span style="color: lightgreen;">[/]</span>
-        <span style="color: red;">[X]</span>
-    </span>
+      <span style="color: white; font-weight: bold;">IDKWTPH</span>
+      <span style="font-weight: bold; font-family: 'Lucida Console', monospace; position: relative; right: 10px;">
+        <span style="color: yellow;">-</span>
+        <span style="color: lightgreen;">□</span>
+        <span style="color: red;">X</span>
+      </span>
     </div>
     <div class="tab">
-        <form action="google.com">
-    <label for="cars">What do you rate us /5?:</label>
-    <br>
-    <select name="stars" id="stars">
-    <option value="5">5 Stars</option>
-    <option value="4">4 Stars </option>
-    <option value="3">3 Stars</option>
-    <option value="2">2 Stars</option>
-    <option value="1">1 Star</option>
-    </select>
-    <hr>
-    <span class="fa fa-star checked"></span>
-    <span class="fa fa-star checked"></span>
-    <span class="fa fa-star checked"></span>
-    <span class="fa fa-star checked"></span>
-    <span class="fa fa-star checked"></span> 
-    <hr>
-    <label for="review">Review:</label><br>
-    <input type="text" id="lname" name="lname" value="u da best :)"><br><br>
-    <input type="submit" value="Submit">
-    <i>pls dont press submit, i cba to code it :(</i>
-    </form>
+      <form action="https://google.com">
+        <label for="stars">What do you rate us /5</label><br>
+        <select name="stars" id="stars">
+          <option value="5">5 Stars</option>
+          <option value="4">4 Stars</option>
+          <option value="3">3 Stars</option>
+          <option value="2">2 Stars</option>
+          <option value="1">1 Star</option>
+        </select>
+        <hr>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <hr>
+        <label for="review">Review</label><br>
+        <input type="text" id="lname" name="lname" value="u da best"><br><br>
+        <input type="submit" value="Submit">
+        <i>pls dont press submit i cba to code it</i>
+      </form>
     </div>
-</div>
+  </div>
 
+  <script>
+    let highestZ = 1;
 
-<script>
-let highestZ = 1;
+    document.querySelectorAll('.Mtab').forEach(tab => {
+      const bar = tab.querySelector('.Tbar');
+      let dragging = false;
+      let offsetX, offsetY;
 
-
-document.querySelectorAll(".Mtab").forEach((tab) => {
-    const bar = tab.querySelector(".Tbar");
-    let dragging = false;
-    let offsetX, offsetY;
-
-
-    // Bring clicked window to the front
-    tab.addEventListener("mousedown", () => {
+      // Bring clicked window to the front
+      tab.addEventListener('mousedown', () => {
         highestZ++;
         tab.style.zIndex = highestZ;
-    });
+      });
 
-
-    bar.addEventListener("mousedown", (e) => {
+      bar.addEventListener('mousedown', (e) => {
         dragging = true;
         offsetX = e.clientX - tab.offsetLeft;
         offsetY = e.clientY - tab.offsetTop;
-        bar.style.cursor = "grabbing";
-    });
+        bar.style.cursor = 'grabbing';
+      });
 
-
-    document.addEventListener("mousemove", (e) => {
+      document.addEventListener('mousemove', (e) => {
         if (!dragging) return;
-        tab.style.left = (e.clientX - offsetX) + "px";
-        tab.style.top = (e.clientY - offsetY) + "px";
-    });
+        tab.style.left = (e.clientX - offsetX) + 'px';
+        tab.style.top = (e.clientY - offsetY) + 'px';
+      });
 
-
-    document.addEventListener("mouseup", () => {
+      document.addEventListener('mouseup', () => {
         dragging = false;
-        bar.style.cursor = "grab";
+        bar.style.cursor = 'grab';
+      });
     });
-});
-</script>
+  </script>
+
 </body>
 </html>
